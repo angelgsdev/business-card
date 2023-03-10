@@ -1,0 +1,27 @@
+body{
+    margin: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #000000;
+ /* two solutions to center text... add it here as text-align or in card class*/
+}
+
+.img{
+    width:150px;
+    border: 3px solid #14213d;
+    border-radius: 100px;
+    
+}
+.card{
+    margin: 0px auto;
+    padding: 20px;
+    display:flex;
+    justify-content: space-around;
+    width: 400px;
+    text-align: center;
+
+    color: #14213d;
+    background: #e5e5e5;
+    border: 5px solid #fca311;
+
+    border-radius: 20px;
+}
